@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header .contenedor{
+    display: flex;
+    height: 60px;
+    background-color: #DCDCDC;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px;
+
+    width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}
+
+a:hover{
+    transition: 0.2s;
+    color: red;
+}
+
+/* Style Instagram */
+
+main{
+    position: relative;
+}
+
+.list-volcanico{
+    position: absolute;
+
+    margin-top: 62px;
+    margin-left: 22px;
+}
+
+/* */

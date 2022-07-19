@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Red Geofisica Peruana Privada</title>
+    <link rel="shortcut icon" href="IMG/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <h2 class="logotipo">Red Sismologia Privada Perú:</h2>
+            <button onclick="window.location.href='https://stationview.raspberryshake.org/#/?lat=-9.05889&lon=-72.62139&zoom=5.751&net=AM&sta=S2768'">Ver Mapa</button>
+            <nav>
+                <a href="../../index.html">Inicio |  </a>
+                <a href="https://discord.com/invite/ENMxcjT6PU">Discord | </a>
+                <a href="https://volcanoes.usgs.gov/software/swarm/bin/swarm-3.2.0-bin.zip">Swarm | </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="acelerografos-general">
+        <div class="Acelerografos">
+            <h1>Acelerografos Lima:</h1>
+            <div class="Lima1">
+                <p>RE2AE: Lima</p>
+                <iframe width="500" height="350" src="https://dataview.raspberryshake.org/#/embed/AM/RE2AE/00/EHZ"></iframe>
+            </div>
+            <div class="Lima2">
+                <p>RB938: Lima</p>
+                <iframe width="500" height="350" src="https://dataview.raspberryshake.org/#/embed/AM/RB938/00/EHZ"></iframe>
+            </div>
+            <div class="Lima3">
+                <p>RE95E: Lima</p>
+                <iframe width="500" height="350" src="https://dataview.raspberryshake.org/#/embed/AM/RE95E/00/EHZ"></iframe>
+            </div>
+            <div class="Lima4">
+                <p>S2768: Lima - Cañete</p>
+                <iframe width="500" height="350" src="https://dataview.raspberryshake.org/#/embed/AM/S2768/00/EHZ"></iframe>
+            </div>
+        </div>
+        <div class="Acelerografos2">
+            <h1 class="text1"">Acelerografos Huanuco:</h1>
+            <div class="Huanuco1">
+                <p>RCF56: Huanuco</p>
+                <iframe width="500" height="350" src="https://dataview.raspberryshake.org/#/embed/AM/RCF56/00/EHZ"></iframe>
+            </div>
+        </div>
+        
+        <div class="Acelerografos2">
+        <h1 class="text1"">Acelerografos Ancash:</h1>
+            <div class="Ancash">
+                <p>RA5FD: Ancash</p>
+                <iframe width="500" height="350" src="https://dataview.raspberryshake.org/#/embed/AM/RA5FD/00/HDF"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="ultimo-sismo">
+        <div class="Ultimo-Sismo-Twitter">
+            <h1>Ultimo Sismo:</h1>
+            <a class="twitter-timeline" data-top="800" data-width="300" data-height="500" data-theme="dark" href="https://twitter.com/Sismos_Peru_IGP?ref_src=twsrc%5Etfw">Tweets by Sismos_Peru_IGP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    
+        <div class="Botones-Sismologia">
+            <h3>Sismologia IGP 1 <button onclick="window.location.href='https://ide.igp.gob.pe/portal/apps/opsdashboard/index.html#/35b5589c508848c7a311e9ecb525775a'">Visitar</button></h3> 
+            <h3>Sismologia IGP 2 <button onclick="window.location.href='https://coeseducacion.pe/sismos/movil/'">Visitar</button></h3> 
+            <h3>Sismologia IGP 3 <button onclick="window.location.href='https://www.coeseducacion.pe/sismos/'">Visitar</button></h3> 
+            <h3>Sismologia IGP 4 <button onclick="window.location.href='https://www.coeseducacion.pe/sismos/registros.php'">Visitar</button></h3> 
+        </div>
+    </div>
+</body>
+
+<style>
+    body{
+        margin: 0;
+    }
+
+    header .contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1px;
+    background-color: #DCDCDC;
+    }
+
+
+
+    a{
+        color: #000000;
+        text-decoration: none;
+    }
+
+    header nav a:hover,
+    header nav a.activo {
+        color: #7e7e7e;
+    }
+    
+    .Ultimo-Sismo-Twitter{
+        position: absolute;
+        top: 92px;
+        right: 200px;
+    }
+
+    .acelerografos-general{
+        position: relative;
+        left: 10px;
+        top: 5px;
+    }
+
+    .Lima2{
+        position: relative;
+        width: 60%;
+        right: -525px;
+        top: -410px;
+    }
+
+    .Lima3{
+        position: relative;
+        width: 60%;
+        right: 0px;
+        top: -400px;
+    }
+
+    .Lima4{
+        position: relative;
+        width: 60%;
+        right: -525px;
+        top: -810px;
+    }
+
+
+    .Botones-Sismologia{
+        position: absolute;
+        top: 700px;
+        right: 299px;
+    }
+
+    .text1{
+        position: relative;
+        bottom: 810px;
+    }
+
+
+    .Huanuco1{
+        position: relative;
+        width: 60%;
+        right: 0px;
+        top: -814px;
+        text-align: center;
+    }
+
+    .Ancash{
+        position: relative;
+        width: 60%;
+        right: 0px;
+        top: -814px;
+        text-align: center;
+    }
+</style>
+
+</html>
